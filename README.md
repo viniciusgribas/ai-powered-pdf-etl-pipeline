@@ -445,12 +445,6 @@ erDiagram
 | **Average Receipt Value** | $15,985.98 |
 | **Largest Single Receipt** | $175,000.00 |
 
-### AI Model Performance
-
-| Model | Files Processed | Total Value | Avg Value per File |
-|-------|----------------|-------------|-------------------|
-| **Vision AI Scout** (llama-4-scout-17b) | 18 | $351,498.52 | $19,527.70 |
-| **Vision AI Maverick** (llama-4-maverick-17b) | 4 | $193.12 | $48.28 |
 
 ### Success Rate Analysis
 
@@ -567,7 +561,7 @@ graph TD
 
 | Challenge | Initial Approach | Better Solution | Result |
 |-----------|-----------------|-----------------|--------|
-| Receipt quality | Traditional OCR | Vision AI models | 20% → 95% accuracy |
+| Receipt quality | Traditional OCR | Vision AI models | 20% → 98% accuracy |
 | Validation speed | Complex two-agent system | Single-pass Pydantic | 10x faster |
 | Code organization | One large notebook | Separate service notebooks | Easier maintenance |
 | Data storage | CSV files | PostgreSQL database | Better queries & relationships |
