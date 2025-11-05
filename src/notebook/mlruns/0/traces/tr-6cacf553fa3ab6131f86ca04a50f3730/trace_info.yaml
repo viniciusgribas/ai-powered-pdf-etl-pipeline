@@ -1,0 +1,12 @@
+execution_duration_ms: 2996
+request_preview: '{"state": {"receipt_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/receipts_dataset"}}'
+request_time: '2025-11-05T02:43:49.314Z'
+response_preview: '{"receipts_df": "   filename                                          file_path  \\\n0     0.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n1     1.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n2    10.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n3     2.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n4     3.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n5     4.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n6     5.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n7     6.JPG  /Users/viniciusgribas/Code/github/work/teste_a...   \n8     7.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n9     8.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n10    9.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n\n   extraction_method  success  \\\n0    Vision
+  (FAILED)    False   \n1    Vision (FAILED)    False   \n2    Vision (FAILED)    False   \n3    Vision
+  (FAILED)    False   \n4 ...'
+state: OK
+trace_id: tr-6cacf553fa3ab6131f86ca04a50f3730
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

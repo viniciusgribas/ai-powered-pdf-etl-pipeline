@@ -1,0 +1,11 @@
+execution_duration_ms: 4
+request_preview: '{"pdf_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book/Jordan-2019-Standard-Specifications-for-Construction.pdf"}'
+request_time: '2025-11-04T19:40:56.303Z'
+response_preview: '{"contract_sections_df": "Empty DataFrame\nColumns: []\nIndex:
+  []", "errors": ["''NoneType'' object has no attribute ''seek''"], "success": false}'
+state: OK
+trace_id: tr-a178e5eaa9e4558179407a2e4bdd87bc
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

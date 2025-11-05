@@ -1,0 +1,19 @@
+execution_duration_ms: 21896
+request_preview: '{"contract_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book",
+  "invoice_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/invoice_dataset",
+  "receipt_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/receipts_dataset"}'
+request_time: '2025-11-04T22:25:23.867Z'
+response_preview: '{"contract_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book",
+  "invoice_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/invoice_dataset",
+  "receipt_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/receipts_dataset",
+  "contract_sections_df": "   section_number                                   section_title  \\\n0           00010                               TABLE
+  OF CONTENTS   \n1           00800                        SUPPLEMENTARY CONDITIONS   \n2           01110                                 SUMMARY
+  OF WORK   \n3           01310                                    COORDINATION   \n4           01315                                PROJECT
+  MEETINGS   \n5           01330                                      SUBMITTALS   \n6           01410                         REGULATORY
+  REQUIREMENTS   \n7           01420     SPECIFICATION REFERENCE AND WORKS CONSULTED   \n8           ...'
+state: OK
+trace_id: tr-9956369fa44e67c9b39ee1b8180c8ace
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

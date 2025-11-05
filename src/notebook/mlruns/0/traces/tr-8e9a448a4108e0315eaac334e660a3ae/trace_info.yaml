@@ -1,0 +1,12 @@
+execution_duration_ms: 6129
+request_preview: '{"contract_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book",
+  "invoice_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/invoice_dataset",
+  "receipt_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/receipts_dataset"}'
+request_time: '2025-11-04T22:20:35.718Z'
+response_preview: ''
+state: ERROR
+trace_id: tr-8e9a448a4108e0315eaac334e660a3ae
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

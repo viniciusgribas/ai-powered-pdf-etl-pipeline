@@ -1,0 +1,10 @@
+execution_duration_ms: 19
+request_preview: '{"pdf_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book/Jordan-2019-Standard-Specifications-for-Construction.pdf"}'
+request_time: '2025-11-04T19:38:41.561Z'
+response_preview: '{}'
+state: OK
+trace_id: tr-f61fd4792d17d7e2db49db20cc2fd70a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

@@ -1,0 +1,22 @@
+execution_duration_ms: 379
+request_preview: '[[{"content": "Say ''Groq is working!'' in one sentence.", "additional_kwargs":
+  {}, "response_metadata": {}, "type": "human", "name": null, "id": null}]]'
+request_time: '2025-11-05T03:12:09.394Z'
+response_preview: '{"generations": [[{"text": "Groq is working!", "generation_info":
+  {"finish_reason": "stop", "logprobs": null}, "type": "ChatGeneration", "message":
+  {"content": "Groq is working!", "additional_kwargs": {"reasoning_content": "The
+  user wants the assistant to say \"Groq is working!\" in one sentence. That is straightforward.
+  Just output that sentence. There''s no special instruction. Just produce that sentence."},
+  "response_metadata": {"token_usage": {"completion_tokens": 51, "prompt_tokens":
+  82, "total_tokens": 133, "completion_time": 0.050729056, "prompt_time": 0.004576086,
+  "queue_time": 0.22127972, "total_time": 0.055305142, "completion_tokens_details":
+  {"reasoning_tokens": 37}}, "model_name": "openai/gpt-oss-20b", "system_fingerprint":
+  "fp_7d448090ba", "service_tier": "on_demand", "finish_reason": "stop", "logprobs":
+  null, "model_provider": "groq"}, "type": "ai", "name": null, "id": "lc_run--aed742c7-8bca-4380-bace-150227383206-0"}}]],
+  "llm_output": {"token_usage": {"completion_token...'
+state: OK
+trace_id: tr-4f01cfe9b58a95d1414972a0c100238a
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

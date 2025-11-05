@@ -1,0 +1,21 @@
+execution_duration_ms: 22895
+request_preview: '{"file_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book/Jordan-2019-Standard-Specifications-for-Construction.pdf",
+  "document_type": "contract", "file_extension": ".pdf", "contract_sections_df": "Empty
+  DataFrame\nColumns: []\nIndex: []", "raw_text": "", "raw_tables": [], "extracted_invoice":
+  null, "extracted_receipt": null, "extracted_contract": null, "extracted_data": null,
+  "validated_data": null, "validation_errors": [], "errors": [], "retry_count": 0,
+  "processing_time": 0.0, "success": false}'
+request_time: '2025-11-04T19:42:12.785Z'
+response_preview: '{"file_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book/Jordan-2019-Standard-Specifications-for-Construction.pdf",
+  "document_type": "contract", "file_extension": ".pdf", "contract_sections_df": "   section_number                                   section_title  \\\n0           00010                               TABLE
+  OF CONTENTS   \n1           00800                        SUPPLEMENTARY CONDITIONS   \n2           01110                                 SUMMARY
+  OF WORK   \n3           01310                                    COORDINATION   \n4           01315                                PROJECT
+  MEETINGS   \n5           01330                                      SUBMITTALS   \n6           01410                         REGULATORY
+  REQUIREMENTS   \n7           01420     SPECIFICATION REFERENCE AND WORKS CONSULTED   \n8           01425                                   ABBREVIATIONS   \n9           01450                                 QUALITY
+  CON...'
+state: OK
+trace_id: tr-9e8207c0b1b5b2ada2e351755612bd1b
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

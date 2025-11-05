@@ -1,0 +1,16 @@
+execution_duration_ms: 20828
+request_preview: '{"file_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book/Jordan-2019-Standard-Specifications-for-Construction.pdf"}'
+request_time: '2025-11-04T19:44:17.693Z'
+response_preview: '{"file_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book/Jordan-2019-Standard-Specifications-for-Construction.pdf",
+  "contract_sections_df": "   section_number                                   section_title  \\\n0           00010                               TABLE
+  OF CONTENTS   \n1           00800                        SUPPLEMENTARY CONDITIONS   \n2           01110                                 SUMMARY
+  OF WORK   \n3           01310                                    COORDINATION   \n4           01315                                PROJECT
+  MEETINGS   \n5           01330                                      SUBMITTALS   \n6           01410                         REGULATORY
+  REQUIREMENTS   \n7           01420     SPECIFICATION REFERENCE AND WORKS CONSULTED   \n8           01425                                   ABBREVIATIONS   \n9           01450                                 QUALITY
+  CONTROL   \n10          01550    MAINTENANCE OF HAUL ROADS...'
+state: OK
+trace_id: tr-8f205d62d4a8a5f6ea7a7834704e3ea0
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

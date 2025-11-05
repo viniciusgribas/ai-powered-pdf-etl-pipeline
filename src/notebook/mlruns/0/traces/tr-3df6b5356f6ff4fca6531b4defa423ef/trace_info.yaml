@@ -1,0 +1,23 @@
+execution_duration_ms: 2230
+request_preview: '[[{"content": "Hello, how are you?", "additional_kwargs": {}, "response_metadata":
+  {}, "type": "human", "name": null, "id": null}]]'
+request_time: '2025-11-04T23:52:20.963Z'
+response_preview: '{"generations": [[{"text": "I''m doing well, thanks! How can I
+  help you today?", "generation_info": {"finish_reason": "stop", "logprobs": null},
+  "type": "ChatGeneration", "message": {"content": "I''m doing well, thanks! How can
+  I help you today?", "additional_kwargs": {"refusal": null}, "response_metadata":
+  {"token_usage": {"completion_tokens": 22, "prompt_tokens": 12, "total_tokens": 34,
+  "completion_tokens_details": {"accepted_prediction_tokens": 0, "audio_tokens": 0,
+  "reasoning_tokens": 0, "rejected_prediction_tokens": 0}, "prompt_tokens_details":
+  {"audio_tokens": 0, "cached_tokens": 0}}, "model_provider": "openai", "model_name":
+  "gpt-5-mini-2025-08-07", "system_fingerprint": null, "id": "chatcmpl-CYL6zNd3h0bqTidIMqPMtsI2eJP0p",
+  "service_tier": "default", "finish_reason": "stop", "logprobs": null}, "type": "ai",
+  "name": null, "id": "lc_run--7edb0f50-74b5-49b6-b705-319e04810a71-0"}}]], "llm_output":
+  {"token_usage": {"completion_tokens": 22, "prompt_tokens": 12, "total_tokens": 34,
+  "c...'
+state: OK
+trace_id: tr-3df6b5356f6ff4fca6531b4defa423ef
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

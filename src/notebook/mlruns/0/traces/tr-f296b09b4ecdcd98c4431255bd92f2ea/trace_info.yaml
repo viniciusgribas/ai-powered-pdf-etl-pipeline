@@ -1,0 +1,22 @@
+execution_duration_ms: 3854
+request_preview: '[[{"content": "Hello, how are you?", "additional_kwargs": {}, "response_metadata":
+  {}, "type": "human", "name": null, "id": null}]]'
+request_time: '2025-11-04T23:45:11.112Z'
+response_preview: '{"generations": [[{"text": "Hello! I’m an AI, so I don’t have feelings,
+  but I’m ready to help. How can I assist you today? How are you doing?", "generation_info":
+  {"finish_reason": "stop", "logprobs": null}, "type": "ChatGeneration", "message":
+  {"content": "Hello! I’m an AI, so I don’t have feelings, but I’m ready to help.
+  How can I assist you today? How are you doing?", "additional_kwargs": {"refusal":
+  null}, "response_metadata": {"token_usage": {"completion_tokens": 106, "prompt_tokens":
+  12, "total_tokens": 118, "completion_tokens_details": {"accepted_prediction_tokens":
+  0, "audio_tokens": 0, "reasoning_tokens": 64, "rejected_prediction_tokens": 0},
+  "prompt_tokens_details": {"audio_tokens": 0, "cached_tokens": 0}}, "model_provider":
+  "openai", "model_name": "gpt-5-mini-2025-08-07", "system_fingerprint": null, "id":
+  "chatcmpl-CYL03U28TITbvFMOWFCPOhV1eLcHV", "service_tier": "default", "finish_reason":
+  "stop", "logprobs": null}, "type": "ai", "name": null, "id": "lc_run--17c0d2c0-c50e...'
+state: OK
+trace_id: tr-f296b09b4ecdcd98c4431255bd92f2ea
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT

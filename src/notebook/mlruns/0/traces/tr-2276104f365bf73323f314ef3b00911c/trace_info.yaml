@@ -1,0 +1,16 @@
+execution_duration_ms: 6501
+request_preview: '{"contract_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book",
+  "invoice_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/invoice_dataset",
+  "receipt_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/receipts_dataset"}'
+request_time: '2025-11-04T22:23:08.358Z'
+response_preview: '{"contract_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/jordan_book",
+  "invoice_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/invoice_dataset",
+  "receipt_input_path": "/Users/viniciusgribas/Code/github/work/teste_alvorada_dev/data/input/receipts_dataset",
+  "contract_sections_df": "Empty DataFrame\nColumns: []\nIndex: []", "invoices_df":
+  "          filename                                          file_path  \\\n0  batch1-0001.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n1  batch1-0002.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n2  batch1-0003.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n3  batch1-0004.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n4  batch1-0005.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n5  batch1-0006.jpg  /Users/viniciusgribas/Code/github/work/teste_a...   \n6  batch1-0007.jpg  /Users/viniciusgribas/Code/github/work/teste_a...'
+state: OK
+trace_id: tr-2276104f365bf73323f314ef3b00911c
+trace_location:
+  mlflow_experiment:
+    experiment_id: '0'
+  type: MLFLOW_EXPERIMENT
