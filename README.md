@@ -162,7 +162,7 @@ The pipeline processes three types of documents from different sources:
 ### Overall Architecture
 
 ```mermaid
-graph TD
+graph 
     A[PDF Documents] --> B{Document Type}
     B -->|Receipt| C[Receipt Service]
     B -->|Invoice| D[Invoice Service]
@@ -413,33 +413,59 @@ erDiagram
 
 ## 📊 Performance Metrics
 
-### Processing Speed
+### Real-World Results (Receipt Service)
 
-| Document Type | Average Time | Model Used |
-|--------------|--------------|------------|
-| Receipt (image) | ~2-3 seconds | Vision AI Scout |
-| Receipt (retry) | ~5-8 seconds | Vision AI Maverick |
-| Invoice (planned) | ~1-2 seconds | Vision AI Scout |
-| Contract (planned) | ~3-5 seconds | Vision AI Scout |
+**Latest Run:** November 5, 2025 - Processing 11 receipt files
 
-### Accuracy Rates
+| Metric | Result |
+|--------|--------|
+| **Total Files Processed** | 11 |
+| **Successful Extractions** | 11 (100.0%) |
+| **Failed Extractions** | 0 |
+| **Validation Attempts** | 2 |
+| **Successfully Fixed** | 2 |
+| **Still Failed** | 0 |
+
+### Database Performance
+
+| Operation | Count |
+|-----------|-------|
+| **Contractors Added** | 0 (reused existing) |
+| **Total Contractors** | 8 |
+| **Receipts Loaded** | 11 |
+| **Line Items Loaded** | 114 |
+
+### Cumulative Statistics
+
+| Metric | Total |
+|--------|-------|
+| **Total Receipts Processed** | 22 |
+| **Total Line Items Extracted** | 227 |
+| **Total Amount Processed** | $351,691.64 |
+| **Average Receipt Value** | $15,985.98 |
+| **Largest Single Receipt** | $175,000.00 |
+
+### AI Model Performance
+
+| Model | Files Processed | Total Value | Avg Value per File |
+|-------|----------------|-------------|-------------------|
+| **Vision AI Scout** (llama-4-scout-17b) | 18 | $351,498.52 | $19,527.70 |
+| **Vision AI Maverick** (llama-4-maverick-17b) | 4 | $193.12 | $48.28 |
+
+### Success Rate Analysis
 
 ```mermaid
-pie title Extraction Success Rates
-    "Successful (1st pass)" : 85
-    "Successful (retry)" : 10
-    "Failed" : 5
+pie title Extraction Method Distribution
+    "Scout (1st pass)" : 81.8
+    "Maverick (retry)" : 18.2
 ```
 
-### Cost Efficiency
+**Key Insights:**
 
-| Processing Volume | Estimated Cost | Cost Per Document |
-|-------------------|----------------|-------------------|
-| 100 documents | ~$0.50 | $0.005 |
-| 1,000 documents | ~$4.00 | $0.004 |
-| 10,000 documents | ~$35.00 | $0.0035 |
-
-*Costs based on Groq API pricing and typical document complexity*
+- 81.8% of receipts successfully extracted on first pass (Scout model)
+- 18.2% required deep reasoning model (Maverick) for completion
+- 100% overall success rate with two-tier validation system
+- Zero failed extractions after retry logic
 
 ---
 
