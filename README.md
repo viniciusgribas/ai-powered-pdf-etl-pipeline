@@ -167,7 +167,7 @@ graph TD
     B -->|Receipt| C[Receipt Service]
     B -->|Invoice| D[Invoice Service]
     B -->|Contract| E[Contract Service]
-    C --> F[Vision AI Processing]
+    C --> F[Vision AI Processing (or OCR python code)]
     D --> F
     E --> F
     F --> G[Validation Engine]
