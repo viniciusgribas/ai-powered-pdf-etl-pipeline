@@ -110,7 +110,7 @@ The pipeline processes three types of documents from different sources:
 
 **Characteristics**:
 - Structured section headers (SECTION XXXX - Title)
-- Structured section footers (XXXX ENDSECTION XXX)
+- Structured section footers (**** END OF SECTION ****)
 - Technical specifications and requirements
 - Legal contract language
 - Tables and numbered lists
